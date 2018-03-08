@@ -10,6 +10,8 @@ module Icemelt
 
     enable  :sessions, :logging
 
+    I18n.enforce_available_locales = false
+
     def self.data_root
       @data_root ||= ENV['DATA_ROOT'] || File.expand_path('../../data', File.dirname(__FILE__))
     end
