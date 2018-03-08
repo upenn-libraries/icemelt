@@ -2,3 +2,6 @@ data/
 spec/data/
 coverage/
 Gemfile.lock
+
+# Rubymine
+.idea
